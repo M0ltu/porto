@@ -1,0 +1,119 @@
+KIK UKK (Final Update - Target Pengerjaan 2 Hari)
+🛠️ Tech Stack & Konfigurasi Teknis
+Framework: Laravel
+
+Database (Lokal): SQLite
+
+Database & Hosting (Online/Production): Railway dan Supabase (PostGre untuk settingan di Supabasenya, tapi disini saya menggunakan SQLite)
+
+Auth & Dashboard Base: Laravel Breeze (untuk instalasi instan fitur Login/Logout & Dashboard Admin).
+
+1. Fitur Portfolio:
+A. Halaman Beranda - WAJIB
+
+Foto Profil / Avatar
+
+Nama Lengkap (Muhammad David Yusuf)
+
+Kelas (XII PPLG B) dan Kompetensi Keahlian (Software and Game Development)
+
+Deskripsi Singkat / Personal Branding
+
+Keahlian Utama
+
+Button: Lihat Portfolio, Lihat CV, Hubungi Saya
+
+B. Tentang Saya / About Me - WAJIB
+
+Biodata Singkat
+
+Riwayat Pendidikan
+
+Minat dan Bidang Teknologi yang dikuasai
+
+Pengalaman Organisasi / Kepanitiaan & PLK (Digabung dalam bentuk Timeline interaktif agar rapi)
+
+Cita - Cita / Tujuan Karir
+
+C. Keahlian / Skills - WAJIB
+
+Menampilkan kemampuan teknis (hard skill) dan kemampuan non-teknis (soft skill) menggunakan persentase %
+
+D. Galeri Projek / My Project - WAJIB
+
+Memiliki nama proyek
+
+Gambar atau Screenshot Aplikasi (Proyek)
+
+Deskripsi Proyek & Permasalahan yang ingin diselesaikan
+
+Tujuan dibuatnya proyek tersebut
+
+Teknologi yang digunakan & Peran dalam proyek
+
+Fitur-fitur, Link Demo, Link Source Code GitHub
+
+Dokumentasi Proses Pekerjaan & Feedback User
+
+E. Sertifikat dan Prestasi - WAJIB
+
+Sertifikat, Prestasi, dan Dokumentasi pendukung
+
+F. Pengalaman / Experience - WAJIB
+
+Pengalaman PLK, Organisasi, dan Lomba
+
+G. CV Digital / Resume - WAJIB
+
+H. Kontak - WAJIB
+
+Email, GitHub, Instagram, LinkedIn
+
+I. Formulir Kesan dan Pesan - WAJIB
+
+(Untuk bagian ini adalah tentang kesan dan pesan seseorang terhadap Web Portofolio saya, bagaimana menurutnya Pengalamannya  selama menggunakan website portofolio saya. Jadi maksudnya adalah seseorang akan memberikan rating terhadap website portofolio saya ini berdasarkan pengalamannya setelah melihat2 Web Portofolio saya ini. Jadi gunakan untuk sementara Kirim pesan yang berada dihalaman kontak menjadi yang saya bilang tadi berikan juga pilihan Teman dan Guru karena saya diharuskan mendaapatkan minimal yang mengisi formulirnya dari 10 teman dan 5 guru.)
+
+J. Responsive Design - WAJIB (Desktop & Smartphone)
+
+K. Fitur Interaktif - WAJIB
+
+Mode Dark dan Mode Light
+
+Animasi Ganti Halaman & Navigasi Yang Mudah
+
+Tombol Kembali di Atas & Preview Proyek
+
+L. Dashboard Admin (Laravel Authenticated) - WAJIB
+
+Login / Log out (menggunakan Laravel Breeze)
+
+CRUD Proyek (tersimpan ke database Supabase PostgreSQL(SQLite Karena project 2 hari) )
+
+Upload Foto Proyek, Tambah & Hapus Sertifikat
+
+Mengelola Informasi Profil & Mengelola Pesan Masuk
+
+Mengubah Konten tanpa Menghapus Kode (Dynamic Content)
+
+M. Testimony - WAJIB
+
+Testimony Guru Pembimbing, Teman, Pengguna, dan Tempat PLK
+
+O. Fitur Tambahan (Wajib 1 Ditambahkan):
+
+Pencarian dan Filter Proyek (Direkomendasikan untuk memilah kategori projek dengan cepat)
+
+📋 Persyaratan Teknis
+Dibuat sebagai website berbasis Laravel yang dapat diakses melalui browser.
+
+Dipublikasikan secara online secara gratis menggunakan Railway dan Supabase
+
+Struktur kode rapi, konsisten, menggunakan arsitektur MVC (Model-View-Controller) bawaan Laravel dengan penamaan file/folder standar.
+
+Menggunakan gambar yang relevan dan telah dioptimalkan (dikompres) agar ukuran halaman tidak cepat memakan kuota penyimpanan server.
+
+Memastikan seluruh tombol, menu, tautan, formulir CRUD, dan fitur interaktif berjalan sesuai fungsinya.
+
+Memiliki tampilan responsif dan diuji pada perangkat desktop serta smartphone.
+
+<!-- Jika ada saran untuk memperbagus web site, tambahkan saja disini, tapi harus ada persetujuan dariku. -->
