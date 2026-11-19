@@ -50,6 +50,15 @@ class Project extends Model
         return $this->hasMany(ProjectImage::class)->orderBy('sort_order');
     }
 
+    public function getMetricsAttribute(mixed $value): array
+    {
+        if (is_null($value)) {
+            return [];
+        }
+
+        return is_string($value) ? json_decode($value, true) ?? [] : (array) $value;
+    }
+
     public function getCoverAttribute(): ?string
     {
         return $this->cover_path;

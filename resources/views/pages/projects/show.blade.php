@@ -150,17 +150,19 @@
                         </div>
                     </div>
 
-                    <div class="rounded-2xl border border-line bg-surface-raised p-5 shadow-soft">
-                        <h2 class="font-mono text-[10px] uppercase tracking-[0.18em] text-ink-faint">Hasil</h2>
-                        <dl class="mt-3 space-y-3">
-                            @foreach ($project['metrics'] as $metric)
-                                <div class="flex items-baseline justify-between gap-3 border-b border-line pb-2 last:border-0 last:pb-0">
-                                    <dt class="text-xs text-ink-faint">{{ $metric['label'] }}</dt>
-                                    <dd class="text-sm font-medium text-ink">{{ $metric['value'] }}</dd>
-                                </div>
-                            @endforeach
-                        </dl>
-                    </div>
+                    @if (! empty($project['metrics']))
+                        <div class="rounded-2xl border border-line bg-surface-raised p-5 shadow-soft">
+                            <h2 class="font-mono text-[10px] uppercase tracking-[0.18em] text-ink-faint">Hasil</h2>
+                            <dl class="mt-3 space-y-3">
+                                @foreach ($project['metrics'] as $metric)
+                                    <div class="flex items-baseline justify-between gap-3 border-b border-line pb-2 last:border-0 last:pb-0">
+                                        <dt class="text-xs text-ink-faint">{{ $metric['label'] }}</dt>
+                                        <dd class="text-sm font-medium text-ink">{{ $metric['value'] }}</dd>
+                                    </div>
+                                @endforeach
+                            </dl>
+                        </div>
+                    @endif
 
                     <div class="rounded-2xl border border-line bg-surface-raised p-5 shadow-soft">
                         <p class="text-sm leading-6 text-ink-muted">Tertarik dengan proyek serupa atau ingin bertanya soal prosesnya?</p>
